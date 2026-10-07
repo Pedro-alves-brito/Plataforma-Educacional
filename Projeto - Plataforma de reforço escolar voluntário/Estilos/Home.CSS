@@ -1,0 +1,217 @@
+:root{
+    --Fundo-Pagina: #f8edd8;
+    --Fundo-Caixa: #ffddb0;
+    --Marrom: #2b231d;
+    --Verde-Escuro: #3f6f54;
+    --Verde: #79A18D;
+    --Ciano: #62c9b8;
+    --Azul: #9cb4c0;
+    --Amarelo: #ddbb42;
+    --Laranja: #ad6139;
+    --Vermelho: #b9383a;
+    --Branco: #fff;
+    --Preto: #000;
+}
+
+.centro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+body{
+    background-color: var(--Fundo-Pagina);
+    background-image: url("/Estilos/Imagens/linhas.png");
+    background-repeat: repeat-y;
+    background-position: top center;
+    background-size: 1280px auto;
+    font-family: "TeXGyreAdventor" !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+}
+
+.caixa{
+    width: 80%;
+    height: max-content;
+    background-color: var(--Fundo-Caixa);
+    margin-top: 150px;
+    border: 5px solid var(--Marrom);
+    padding: 20px;
+}
+.caixa_dentro{
+    width: 100%;
+    height: 100%;
+    background-color: var(--Laranja);
+    padding: 20px;
+}
+
+.outra_caixa{
+    width: 80%;
+    height: max-content;
+    background-color: var(--Fundo-Caixa);
+    border: 5px solid var(--Marrom);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.outra_caixa_dentro{
+    height: fit-content;
+    background-color: var(--Laranja);
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.separar_txt_img{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 32px;
+    color: var(--Fundo-Caixa);
+    background-color: var(--Marrom);
+    padding-bottom: 10px;
+    font-family: "TeXGyreAdventor";
+    font-weight: bold;
+    font-style: italic;
+}
+
+.caixa_txt_dentro{
+    height: 400px;
+    padding: 15px;
+    border: 5px solid var(--Marrom);
+    background-color: var(--Fundo-Caixa);
+    backdrop-filter: blur(5.1px);
+    -webkit-backdrop-filter: blur(5.1px);
+}
+
+.txt_dentro{
+    height: 100%;
+    font-family: "TeXGyreAdventor";
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--Marrom);
+}
+
+.imagem{
+    width: 600px;
+    height: 400px;
+    border: 5px solid var(--Marrom);
+    padding: 1px;
+}
+
+
+
+.Titulo_Apresentar{
+    text-align: center;
+    font-size: 64px;
+    color: var(--Fundo-Caixa);
+    background-color: var(--Marrom);
+    padding-bottom: 20px;
+    font-family: "TeXGyreAdventor";
+    font-weight: bold;
+    font-style: italic;
+}
+
+.fundo-final {
+    width: 100%;
+    height: 425px;
+    background-image: url("/Estilos/Imagens/final.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 1280px auto;
+    padding: 0;
+    margin-bottom: -1px;
+}
+
+.linha{
+    opacity: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.linha_ciano{
+    border:  5px solid  var(--Ciano);
+}
+.linha_amarelo{
+    border:  5px solid  var(--Amarelo);
+}
+.linha_vermelho{
+    border:  5px solid  var(--Vermelho);
+}
+
+.botoes{
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.botao{
+    height: 75px;
+    width: 300px;
+    color: var(--Fundo-Caixa);
+    text-decoration: none;
+    border: 5px solid var(--Marrom);
+    text-align: center;
+    align-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: var(--Marrom);
+    transition: 0.3s ease;
+}
+
+.botao:hover{
+    background-color: var(--Fundo-Caixa);
+    color: var(--Marrom);
+    transition: 0.3s ease;
+}
+
+.cards{
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    color: var(--Marrom) !important;
+    gap: 50px;
+}
+
+.link_materia{
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 2px solid var(--Marrom);
+    padding-bottom: 15px;
+}
+
+.cards .card{
+    background-color: var(--Fundo-Caixa) !important;
+    border: 5px solid var(--Marrom) !important;
+    text-align: center;
+    width: 500px !important;
+    padding-bottom: 10px;
+}
+
+.card-text{
+    font-size: 20px;
+}
+
+.botao-card{
+    font-weight: bold !important;
+    border: 3px solid var(--Marrom) !important;
+    background-color: var(--Marrom) !important;
+    color: var(--Fundo-Caixa) !important;
+    width: 75%;
+    align-self: center;
+}
+
+.botao-card:hover{
+    border: 3px solid var(--Marrom) !important;
+    background-color: var(--Fundo-Caixa) !important;
+    color: var(--Marrom) !important;
+}

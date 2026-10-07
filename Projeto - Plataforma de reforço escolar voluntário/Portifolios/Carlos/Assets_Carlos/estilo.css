@@ -1,0 +1,278 @@
+*{
+    font: 20px arial #1C1B1A;
+    margin: 0;
+    padding: 0;
+    }
+body{background-color: #F5EAD6;}
+
+.carlos{
+        font-family: impact, "Arial Black", sans-serif;
+        font-size: 32px;
+        margin-left: 15px;
+        text-transform: uppercase;
+        }
+
+.secoes li{display: inline;}
+
+.container{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            }
+
+a.liga{
+        background-color: #F6C445;
+        border-radius: 999px;
+        padding: 8px 16px;
+        font-size: 15px;
+        box-shadow: 3px 3px #1C1B1A;
+        border: 3px solid #1C1B1A;
+        font-family: impact, "Arial Black", sans-serif;
+        list-style-type: none;
+        }
+
+a:link{
+                text-decoration: none;
+                color: black;
+            }
+a:hover{
+                text-decoration: none;
+                color: black;
+            }
+a:visited{
+                    text-decoration: none;
+                    color: black;
+                }
+a:active{text-decoration: none;}
+hr{
+    border: none;
+    height: 3px;
+    background-color: #1C1B1A;
+    width: 100%;
+}
+.xadrez{
+            width: 100%;
+            height: 20px;
+            background-image: url('/Portifolios/Carlos/Assets_Carlos/Imagens/xadrez_creme.png');
+            background-repeat: repeat-x;
+            background-size: 20px 20px;
+        }
+
+.containerTS{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                background-image: url('/Portifolios/Carlos/Assets_Carlos/Imagens/gato_skate.png');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                min-height: 530px;
+            }
+
+.quadro{
+            font-size: 18px;
+            background-color: #F4873B;
+            border-radius: 999px;
+            padding: 20px 25px;
+            box-shadow: 6px 6px #1C1B1A;
+            border: 3px solid #1C1B1A;
+        }
+
+.titulo{
+            color: #1C1B1A;
+            -webkit-text-stroke: 0.1px #F5EAD6;
+            font-family: impact, "Arial Black", sans-serif;
+            text-align: center;
+            font-size: 80px;
+            text-transform: uppercase;
+        }
+.containerTopic{
+                    display: flex;
+                    background-color: #1C1B1A;
+                    width: 100%;
+                    padding-top: 120px;
+                    padding-bottom: 120px;
+                }
+
+.sobre{
+        font-family: impact, "Arial Black", sans-serif;
+        color: #1C1B1A;
+        font-size: 25px;
+        text-align: justify;
+        margin-right: 250px;
+        text-transform: none;
+    }
+.imgsobre{
+                background-image: url('/Portifolios/Carlos/Assets_Carlos/Imagens/gato_guitarra.png'), url('/Portifolios/Carlos/Assets_Carlos/Imagens/olho.png');
+                background-repeat: no-repeat, no-repeat;
+                background-position: 1040px 1px, 60px 1px; /*esquerda cima*/
+                background-size: contain;
+                min-height: 120px;
+            }
+
+.topico{
+            font-family: impact, "Arial Black", sans-serif;
+            color: #1C1B1A;
+            font-size: 35px;
+            text-transform: uppercase;
+        }
+.identacao{margin-left: 250px;}
+.cor{color: #F6C445;}
+.escola{
+            background-color: #2A2926;
+            border-radius: 15px;
+            padding: 25px 65px;
+            border: 3px solid #2A2926;
+            margin-bottom: 25px;
+        }
+.escolaTitulo{
+                color: #F4873B;
+                background-color: #2A2926;
+                font-size: 25px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                margin-top: -35px;
+                }
+.escolaTexto{
+                color: #F5EAD6;
+                background-color: #2A2926;
+                font-size: 20px;
+                font-family: impact, "Arial Black", sans-serif;
+            }
+.bola li{
+            list-style-type: disc;
+            color: #F6C445;
+            font-size: 55px;
+        }
+.cursos{
+            background-color: #F5EAD6;
+            font-size: 18px;
+            border-radius: 15px;
+            padding: 20px 25px;
+            border: 3px solid #1C1B1A;
+            box-shadow: 6px 6px #1C1B1A;
+            border: 3px solid #1C1B1A;
+            text-align: center;
+        }
+.nomecurso{color: #F4873B;}
+.nomelugar{color: #1C1B1A;}
+
+.listacursos{
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+
+.imgcursos{
+                background-image: url('/Portifolios/Carlos/Assets_Carlos/Imagens/boia.png');
+                background-repeat: no-repeat;
+                background-position: left;
+                background-size: contain;
+                min-height: 130px;
+            }
+
+.lazer{
+            background-color: #F5EAD6;
+            font-size: 18px;
+            border-radius: 15px;
+            padding: 20px 25px;
+            border: 3px solid #1C1B1A;
+            box-shadow: 6px 6px #1C1B1A;
+            border: 3px solid #1C1B1A;
+            text-align: center;
+        }
+.listalazer{
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+            }
+.corlazer{
+            background-color: #F2618C;
+            padding-top: 120px;/*cria espaços*/
+            padding-bottom: 120px;
+        }
+
+.imglazer{
+                background-image: url('/Portifolios/Carlos/Assets_Carlos/Imagens/gato.png');
+                background-repeat: no-repeat;
+                background-position: right;
+                background-size: contain;
+                min-height: 100px;
+            }
+
+.trabalho{
+            background-color: #F5EAD6;
+            font-size: 18px;
+            border-radius: 15px;
+            padding: 20px 100px;
+            border: 3px solid #1C1B1A;
+            box-shadow: 6px 6px #1C1B1A;
+            text-align: center;
+        }
+.cortrabalho{
+                background-color: #3FB8AF;
+                padding-top: 100px;/*cria espaços*/
+                padding-bottom: 120px;
+            }
+
+.imgtrabalho{
+                    background-image: url('/Portifolios/Carlos/Assets_Carlos/Imagens/Linha_skate.png');
+                    background-repeat: no-repeat;
+                    background-position: 1040px 1px;
+                    background-size: contain;
+                    min-height: 100px;
+                }
+
+.imgescola{
+            background-image: url('/Portifolios/Carlos/Assets_Carlos/Imagens/Gato_rosa.png');
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: contain;
+            min-height: 100px;  
+        }
+
+.contato{
+            background-color: #F6C445;
+            border-radius: 999px;
+            padding: 15px 22px;
+            font-size: 16px;
+            font-weight: bold;
+            box-shadow: 6px 6px #1C1B1A;
+            border: 3px solid #1C1B1A;
+            font-family: sans-serif;
+            text-transform: none;
+        }
+.containcot{
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                list-style-type: none;
+            }
+.centro{text-align: center;}
+.espaco{ 
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+
+.solgarrafa{
+                background-image: url('/Portifolios/Carlos/Assets_Carlos/Imagens/sol_garrafa.png');
+                background-repeat: no-repeat;
+                background-position: 900px 1px;
+                background-size: contain;
+                min-height: 130px;
+            }
+.rodape{
+            font: arial;
+            color: #F5EAD6;
+            font-size: 24px;
+            text-align: center;
+        }
+.fundorodape{
+                background-color: #1C1B1A;
+                width: 100%;
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }

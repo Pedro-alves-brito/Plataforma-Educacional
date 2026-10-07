@@ -1,0 +1,82 @@
+* {font-size: 20px;
+  }
+
+
+body {
+  background-image: url(Fundo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #2b2b2b;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cabecalho {
+    font-size: 34px;
+    color: rgb(48, 37, 23);
+    text-align: center;
+}
+
+.subtitulo {
+    font-size: 28px;
+     text-align: center;
+}
+
+.destaque {
+  font-size: 26px;
+  color: rgb(53, 65, 26);
+  text-align: center;
+}
+
+.texto-sobremim {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.lista-capacidades {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 0 auto;
+  width: fit-content;
+  text-align: left;
+}
+
+.capacidade {
+  font-weight: bold;
+  color: rgb(53, 65, 26);
+  text-align: center;
+}
+
+.lista-hobbies {
+  list-style: disc;
+  list-style-position: inside;
+  padding-left: 0;
+  margin: 0 auto;
+  max-width: 700px;
+  text-align: center;
+}
+
+.lista-hobbies li {
+  margin-bottom: 6px;
+}
+
+.links-contato {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.links-contato a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+}
+
+.icone-contato {
+  width: 24px;
+  height: 24px;
+}

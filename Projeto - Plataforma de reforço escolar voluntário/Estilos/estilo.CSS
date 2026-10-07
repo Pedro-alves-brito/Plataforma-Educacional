@@ -1,0 +1,311 @@
+:root{
+    --Fundo-Pagina: #f8edd8;
+    --Fundo-Caixa: #ffddb0;
+    --Marrom: #2b231d;
+    --Verde-Escuro: #3f6f54;
+    --Verde: #79A18D;
+    --Ciano: #62c9b8;
+    --Azul: #9cb4c0;
+    --Amarelo: #ddbb42;
+    --Laranja: #ad6139;
+    --Vermelho: #b9383a;
+    --Branco: #fff;
+    --Preto: #000;
+}
+
+@font-face {
+    font-family: "TeXGyreAdventor";
+    src: url(/fonts/tex-gyre-adventor/texgyreadventor-regular.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "TeXGyreAdventor";
+    src: url(/fonts/tex-gyre-adventor/texgyreadventor-bold.otf) format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "TeXGyreAdventor";
+    src: url(/fonts/tex-gyre-adventor/texgyreadventor-italic.otf) format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: "TeXGyreAdventor";
+    src: url(/fonts/tex-gyre-adventor/texgyreadventor-bolditalic.otf) format('opentype');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--Fundo-Pagina) !important;
+    background-image: url(Imagens/10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "TeXGyreAdventor" !important;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+    background-color: var(--Marrom);
+}
+
+.caixa_nav{
+    background-color: var(--Marrom);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 30px;
+    border-bottom: 5px solid var(--Marrom);
+    text-shadow: 5px 6px 6px rgba(0,0,0,0.36);
+}
+
+
+
+.itens_navbar{
+    font-family: "TeXGyreAdventor";
+    font-weight: bold;
+    font-style: italic;
+    height: 75px;
+    padding: 15px 0px;
+}
+
+.item_nave2{
+    background-color: var(--Amarelo);
+}
+.item_nave3{
+    background-color: var(--Verde);
+}
+
+.item_nave1 {
+    position: relative;
+    background-color: var(--Vermelho);
+    height: 75px;
+    overflow: visible;
+}
+
+.item_nave1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    background-color: var(--Vermelho);
+    z-index: 0;
+    transition: height 0.3s ease;
+}
+
+.item_nave1:hover::after {
+    height: 90px;
+    border: 4px solid var(--Marrom);
+    border-top: none;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.item_nave1 .nav-link {
+    position: relative;
+    z-index: 1;
+}
+.item_nave1:hover .nav-link {
+    color: var(--Marrom) !important;
+}
+
+.item_nave2 {
+    position: relative;
+    background-color: var(--Amarelo);
+    height: 75px;
+    overflow: visible;
+}
+
+.item_nave2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    background-color: var(--Amarelo);
+    z-index: 0;
+    transition: height 0.3s ease;
+}
+
+.item_nave2:hover::after {
+    height: 90px;
+    border: 4px solid var(--Marrom);
+    border-top: none;
+    border-radius: 0px 0px 5px 5px;
+    transition: 0.3s ease;
+}
+
+.item_nave2 .nav-link {
+    position: relative;
+    z-index: 1;
+}
+.item_nave2:hover .nav-link {
+    color: var(--Marrom) !important;
+}
+
+
+.item_nave3 {
+    position: relative;
+    background-color: var(--Verde);
+    height: 75px;
+    overflow: visible;
+}
+
+.item_nave3::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    background-color: var(--Verde);
+    z-index: 0;
+    transition: height 0.3s ease;
+}
+
+.item_nave3:hover::after {
+    height: 90px;
+    border: 4px solid var(--Marrom);
+    border-top: none;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.item_nave3 .nav-link {
+    position: relative;
+    z-index: 1;
+}
+.item_nave3:hover .nav-link {
+    color: var(--Marrom) !important;
+}
+
+.itens_nave{
+    height: 75px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-link{
+    color: var(--Fundo-Pagina) !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+.navegacao{
+    background-color: #2b231d;
+}
+
+.links{
+    color: var(--Laranja) !important;
+    font-size: 42px !important;
+    transition: 0.2s;
+}
+
+.links:hover{
+    transition: 0.2s;
+    color: var(--Fundo-Pagina) !important;
+}
+
+.fundo_footer{
+    background-color: #2b231d;
+    background-image: url(Imagens/Fundo_footer.png);
+    background-size: cover;
+    height: 375px;
+    border-top: 5px solid var(--Marrom);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.footer_encima{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.footer_embaixo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.lista_pt{
+    display: flex;
+    gap: 100px;
+}
+.li_pt{
+    list-style: none;
+}
+.txt_link_pt{
+    font-family: "TeXGyreAdventor";
+    font-weight: regular;
+    color: var(--Laranja);
+    font-size: 20px;
+    transition: 0.2s;
+    text-decoration: none;
+}
+.txt_link_pt:hover{
+    color: var(--Fundo-Pagina);
+    transition: 0.2s;
+}
+
+.Nosso_PF{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.Nosso_PF .nav{
+    gap: 35px !important;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.ports{
+    font-family: "TeXGyreAdventor" !important;
+    transition: 0.2s;
+    list-style: none;
+    color: var(--Laranja) !important;
+    font-size: 24px !important;
+}
+.ports:hover{
+    transition: 0.2s;
+    color: var(--Fundo-Pagina) !important;
+}
+
+.ajuste_missao{
+    width: 100%;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+.caixa_missao{
+    width: 900px;
+    padding-right: 50px;
+}
+.missao{
+    color: var(--Fundo-Pagina);
+    font-family: "TeXGyreAdventor";
+    font-weight: regular;
+    font-size: 20px;
+}
